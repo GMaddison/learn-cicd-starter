@@ -30,4 +30,4 @@ jobs:
         uses: google-github-actions/setup-gcloud@v2.1.2
 
       - name: gcloud builds submit
-        run: gcloud builds submit --tag australia-southeast2-docker.pkg.dev/notely-449312/notely-ar-repo/notely:latest  --region us-central1 --allow-unauthenticated --project notely-449312 --max-instances=4
+        run: gcloud builds submit --tag australia-southeast2-docker.pkg.dev/notely-449312/notely-ar-repo/notely:latest
